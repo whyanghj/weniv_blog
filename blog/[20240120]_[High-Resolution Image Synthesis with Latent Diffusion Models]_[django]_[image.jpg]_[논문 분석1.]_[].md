@@ -1,6 +1,6 @@
-## introduction
+# introduction
 
-# 초록
+## 초록
 
-# 서론
+## 서론
  
