@@ -3,7 +3,8 @@
 MoE(Mixture of Exprts)는 multi-task learning에서 높은 확장성을 보인다. 하지만 비효율적이고 많은 계산량이라는 단점을 갖고있다. 그렇기에 본 논문에서는 MoFME를 설명하고있다. MoFME는 expert의 개수를 줄이고 다양한 필터를 이용한다. 라우터는 UaR(uncertainty-aware Router)를 사용한다.
 
 MOE의 단점에 대해서 알아보겠다.
-1. 여러개의 FFN(Feed Forward Network) expert를 가져서 너무 크고 무겁다.
+1. 여러개의
+ FFN(Feed Forward Network) expert를 가져서 너무 크고 무겁다.
 그래서 성능이 저하되고, 연산량은 늘어나고, 메모리사용량도 크다. 특히 자율주행자동차에 사용되는 작은 컴퓨터에는 MOE를 사용할 수 없다.  
 
 2. 기존에는 단순한 Linear Router를 사용하여 expert를 선정하였다. 
